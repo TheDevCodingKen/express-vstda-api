@@ -1,16 +1,17 @@
 {
+  "author": "TheDevCodingKen",
+  "description": "A custom RESTful web app using the Node API and Express.js framework.",
   "name": "vstd-api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "private": true,
+  "repository": "",
   "scripts": {
     "test": "mocha test --exit",
     "start": "node server/index.js"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.17.1",
     "express": "^4.15.2",
     "morgan": "^1.8.1"
   },
